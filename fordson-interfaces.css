@@ -14,7 +14,9 @@ Não esqueçam de comentar as edições e dividir em áreas;
 
 
  /* TELA INICIAL */
-
+.col-xl-3 .push-xl-1 .col-md-4 {
+   padding-left:100px;
+}
 
 
  /* FOOTER */
