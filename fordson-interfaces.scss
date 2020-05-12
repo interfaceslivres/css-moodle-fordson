@@ -44,7 +44,7 @@ $headings-font-weight:   300 !default;
 
 // Navbar
 $navbar-dark-hover-color:           rgba($white, 1) !default;
-$navbar-light-hover-color:          rgba($black, .9) !default;
+$navbar-light-hover-color:          rgba($white, .9) !default;
 
 // Breadcrumbs
 $breadcrumb-padding-y:              .25rem !default;
@@ -117,9 +117,118 @@ body {
 
 
 // Aqui a gente começa a colocar nossas edições;
+#region-main > div:nth-child(3) > div.row.signin{
+    float: right;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div {
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.93);
+    padding: 2.1rem;
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	border: none;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div {
+    width: 330px;
+}
+
+#username {
+    border-radius: .3rem;
+    margin-bottom: 14px;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div > div.signinform > form > label:nth-child(2) {
+	display: none;
+}
+
+#password {
+    border-radius: .3rem;
+    margin-bottom: 13px;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div > div.signinform > form > label:nth-child(4) {
+	display: none;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div > div.signinform > form > div.sign-up-btn > button {
+    border-radius: .3rem;
+
+}
+
+#guestlogin > button {
+    border-radius: .3rem;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div > div.signinform > form > div.sign-up-btn {
+	padding-bottom: 20px;
+}
+
+#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div > div.signinform > p > a {
+	padding-top: 20px;
+}
+
+#page-footer > div > div.row > div.col-md-8
+{
+    padding-left: 0px;
+}
+
+#region-main > div.fpwonderbox > div > div > div > div.fpstartwrap > div > div > div > a > div > i {
+	font-size: 2em !important;
+}
+
+#region-main > div.fpwonderbox > div > div > div > div.fpstartwrap > div > div > div {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#page-footer > div > div.row > div.col-md-8 > div.logininfo {
+	display: none !important;
+}
+
+#page-footer > div > div.row > div.col-md-4 > div > ul, #page-footer > div > div.row > div.col-md-4 > div > div > ul {
+	padding-left: 0 !important;
+}
 
 
-#fordsonlogin > div > div.row.loginicons {
+// Estilização da Navbar
+#page-wrapper > nav > a > span.site-name.d-none.d-md-inline, #yui_3_17_2_1_1589266231260_100 > div.coursecontrols.nav-item.d-flex, #yui_3_17_2_1_1589266231260_99 {
+	display: none !important;
+}
 
-      background: #ff0000;
+#nav-notification-popover-container > div.popover-region-toggle.nav-link > i, #message-drawer-toggle-5eba491a55e875eba491a40bfc332 > i, .navbar-fhs .navbar-nav .nav-link {
+	color: white !important;
+}
+
+#action-menu-toggle-1 > span > span.usertext.mr-1 {
+	color: white !important;
+}
+
+.navbar-brand {
+	padding-top: 0 !important;
+}
+
+#page-header > div > div > div > div:nth-child(1) > div.mr-auto > a > div > img {
+	max-height: 50px;
+	padding-left: 25px;
+}
+
+#page-header > div {
+	padding-top: 20px !important;
+}
+
+#page-wrapper > nav > div.d-inline-block.mr-3 > button {
+	background-color: #f4f4f4;
+	border-color: #f4f4f4;
+	color: #093f70;
+}
+
+.btn {
+	border-radius: .3rem;
+}
+
+.btn-secondary {
+	background-color: #f4f4f4;
 }
