@@ -232,3 +232,38 @@ body {
 .btn-secondary {
 	background-color: #f4f4f4;
 }
+
+
+
+// estilização dos cards da inicial;
+
+#region-main .fp-blocks .container-fluid .row div .block-region .block {
+
+border-top: 7px solid #39A5D0;
+
+}
+
+
+// bloco de ver blocos;
+#page .blockpanelbtn {
+    top: 3px;
+}
+
+// Página do course
+
+.course-content .topics li .content .section li:hover {
+    background-color: #FFD287;
+}
+
+.course-content .topics li .content h3.sectionname {
+    border-top: 10px solid #39A5D0;
+}
+
+
+// badge de topico oculto
+
+.badge-info {
+  color: #e9ecef;
+  background-color: #495057;
+
+}
