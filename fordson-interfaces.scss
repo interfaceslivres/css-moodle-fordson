@@ -278,11 +278,18 @@ border-top: 7px solid #39A5D0;
 
 // setinha e link DO canto superior direito
 .action-menu-trigger .dropdown a {
-color: #f4f4f4!important;
+color: #f4f4f4;
 }
 
 .action-menu-trigger .dropdown a:hover {
-color: #ffffff!important;
+color: #ffffff;
+}
+
+.action-menu-trigger .dropdown a span.userbutton {
+color: #f4f4f4;
+}
+.action-menu-trigger .dropdown a span.userbutton:hover {
+color: #ffffff;
 }
 
 
