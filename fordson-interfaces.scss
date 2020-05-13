@@ -278,11 +278,11 @@ border-top: 7px solid #39A5D0;
 
 // setinha e link DO canto superior direito
 .action-menu-trigger .dropdown a {
-color: #f4f4f4;
+color: #f4f4f4!important;
 }
 
 .action-menu-trigger .dropdown a:hover {
-color: #ffffff;
+color: #ffffff!important;
 }
 
 
@@ -291,9 +291,3 @@ color: #ffffff;
 .h5p-iframe-wrapper {
     max-width: 1020px !important;
 }
-
-
-
-
-
-#action-menu-toggle-3
