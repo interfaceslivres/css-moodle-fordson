@@ -1,3 +1,30 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@interfaceslivres
+interfaceslivres
+/
+css-moodle-fordson
+1
+00
+ Code
+ Issues 0
+ Pull requests 0 Actions
+ Projects 0
+ Wiki
+ Security 0
+ Insights
+ Settings
+css-moodle-fordson/fordson-interfaces.scss
+@interfaceslivres interfaceslivres Update fordson-interfaces.scss
+29b524a yesterday
+287 lines (216 sloc)  6.63 KB
+
 // Bootstrap variables
 
 $white:    #fff !default;
@@ -163,8 +190,6 @@ body {
 
 #guestlogin > button {
     border-radius: .3rem;
-    background-color: #093f70;
-    color: #ffffff;
 }
 
 #region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div > div.signinform > form > div.sign-up-btn {
@@ -279,7 +304,6 @@ border-top: 7px solid #39A5D0;
 }
 
 // setinha canto superior direito
-
 .dropdown #action-menu-toggle-1 {
 color: #f4f4f4;
 }
