@@ -284,3 +284,10 @@ color: #f4f4f4;
 .dropdown #action-menu-toggle-1:hover {
 color: #ffffff;
 }
+
+
+// iframe do h5p tava gigante, agora nao esta mais
+
+.h5p-iframe-wrapper {
+    max-width: 1020px !important;
+}
