@@ -1,12 +1,11 @@
 A padronização do esquema de cores e identidade visual do Classes UFPB foi pensada para a adaptação em diferentes plataformas e contextos de uso. 
 
 IMAGENS:
-
 :::::::::::::::::::::::::::::::::::::::::::::
 https://github.com/interfaceslivres/css-moodle-fordson
 :::::::::::::::::::::::::::::::::::::::::::::
 
-É importante que o uso dos arquivos de imagem estejam adequados à resolução e ao contraste de onde precisar ser implementado. Por isso existem as alternativas com o fundo preto e o png transparente.
+É importante que o uso dos arquivos de imagem estejam adequados à resolução e ao contraste de onde precisar ser implementado. Por isso existem as alternativas preto e branco e o png transparente.
 
 
 CORES:
@@ -19,7 +18,6 @@ O branco #F2F2F2 pode ser utilizado para contraste em fundo escuro;
 As cores #B3853B e #FFD287 são complementares e podem ser utilizadas para destaque e botões de ação.
 
 FONTES 
-
 :::::::::::::::::::::::::::::::::::::::::::::
 https://fonts.google.com/
 :::::::::::::::::::::::::::::::::::::::::::::
