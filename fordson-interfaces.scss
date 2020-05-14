@@ -278,23 +278,22 @@ border-top: 7px solid #39A5D0;
 
 // setinha e link DO canto superior direito
 .action-menu-trigger .dropdown a {
-color: #f4f4f4;
+color: #f4f4f4!important;
 }
 
 .action-menu-trigger .dropdown a:hover {
-color: #ffffff;
+color: #ffffff!important;
 }
 
 .action-menu-trigger .dropdown a span.userbutton {
-color: #f4f4f4;
+color: #f4f4f4!important;
 }
 .action-menu-trigger .dropdown a span.userbutton:hover {
-color: #ffffff;
+color: #ffffff!important;
 }
-
 
 // iframe do h5p tava gigante, agora nao esta mais
 
-.h5p-iframe-wrapper {
-    max-width: 1020px !important;
+#region-main div div.h5p-iframe-wrapper {
+    max-width: 1020px!important;
 }
