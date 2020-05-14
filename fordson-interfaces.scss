@@ -277,11 +277,11 @@ border-top: 7px solid #39A5D0;
 }
 
 // setinha e link DO canto superior direito
-.action-menu-trigger .dropdown a {
+.action-menu-trigger .dropdown a.dropdown-toggle{
 color: #f4f4f4!important;
 }
 
-.action-menu-trigger .dropdown a:hover {
+.action-menu-trigger .dropdown a.dropdown-toggle:hover {
 color: #ffffff!important;
 }
 
