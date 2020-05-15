@@ -313,6 +313,10 @@ color: #ffffff!important;
 		width: 340px;
 		margin: 16px 0 65px 55px;
 	}
+
+	#page-footer .container {
+		padding: 0 55px 0 55px;
+	}
 }
 
 //mobile
@@ -329,6 +333,10 @@ color: #ffffff!important;
 		width: 100%;
 		margin: 0 0 50px 0;
 	}
+
+	#back-to-top {
+		display: none;
+	}
 }
 
 //tablet
@@ -344,6 +352,10 @@ color: #ffffff!important;
 	#region-main > div:nth-child(3) > div.row.signin > div.col-xl-3.push-xl-1.col-md-4 > div {
 		width: 340px;
 		margin: 16px 0 65px 55px;
+	}
+
+	#back-to-top {
+		display: none;
 	}
 }
 
@@ -365,4 +377,48 @@ color: #ffffff!important;
 
 .dropdown-item.active, .dropdown-item:active {
     color: #ffffff!important;
+}
+
+// customização do footer
+#footer-personalizado {
+	display: flex;
+	width: 100%;
+}
+
+.footer-copyright {
+	display: flex;
+	width: 50%;
+	align-items: center;
+}
+
+.footer-logos {
+	display: flex;
+	width: 50%;
+	direction: ltr;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.footer-logos img {
+	margin: 10px;
+}
+
+#page-footer > div > nav, #theme_switch_link,
+#page-footer > .container > a,
+#yui_3_17_2_1_1589517425219_5193 > div.row > div.col-md-8 >
+#page-footer > div > div.row > div.col-md-8 > div.sitelink,
+#page-login-index > #page-wrapper > #page-footer > div > div.row,
+#page-site-index > #page-wrapper > #page-footer > div > div.row,
+#page-footer > div > div.row > div.col-md-8 > div.homelink,
+#page-footer > div > div.row > div.col-md-8 > div.sitelink {
+	display: none;
+}
+
+.helplink .icon {
+	margin-left: 0 !important;
+}
+
+#back-to-top {
+	bottom: 15px !important;
+    right: 15px !important;
 }
