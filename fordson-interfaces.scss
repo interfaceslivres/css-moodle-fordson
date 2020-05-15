@@ -276,7 +276,7 @@ border-top: 7px solid #39A5D0;
 
 }
 
-// setinha e link DO canto superior direito
+// cantinho superior direito e setinha
 .usermenu .action-menu .menubar .action-menu-trigger .dropdown a.dropdown-toggle{
 color: #f4f4f4;
 }
@@ -291,6 +291,18 @@ color: #f4f4f4!important;
 .usermenu .action-menu .menubar .action-menu-trigger .dropdown a span.userbutton:hover {
 color: #ffffff!important;
 }
+
+.usermenu .login {
+  color: #F2F2F2;
+}
+
+.usermenu .login a{
+  color: #F2F2F2;
+}
+.usermenu .login a:hover{
+  color: #ffffff;
+}
+
 
 // iframe do h5p tava gigante, agora nao esta mais
 
