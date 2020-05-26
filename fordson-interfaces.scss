@@ -439,3 +439,51 @@ color: #ffffff!important;
 .action-menu .menubar .action-menu-trigger .dropdown .dropdown-menu .dropdown-item {
       color: #495057;
 }
+
+
+// MAIS EDIÇÕES DAS PÁGINAS DO CURSO
+
+.path-course-view .completionprogress {
+    margin-top: 13px!important;
+}
+
+.course-content img.activityicon {
+  height: 22px!important;
+  width: 22px!important;
+}
+
+.section .activity .contentwithoutlink>a, .section .activity .activityinstance>a {
+    padding-top: 3px;
+}
+
+
+// Ícone do vlibras
+
+#involucro-libras {
+    width: 50px;
+    height: 48px;
+    background: #093f70;
+    position: fixed;
+    bottom: 67px;
+    right: 15px;
+    border-radius: 5px;
+}
+
+#involucro-libras .enabled {
+  right: 21px;
+  bottom: 72px;
+  top: auto;
+}
+
+#involucro-libras .enabled .active .access-button {
+  display: block;
+  -moz-box-sizing: border-box;
+  background: url(http://www.classes.sead.ufpb.br/icone-libras.png) no-repeat center;
+  height: 37px;
+  padding-top: 37px;
+  background-size: 100%;
+}
+
+#involucro-libras .enabled .active .pop-up{
+    max-height: 37px;
+}
